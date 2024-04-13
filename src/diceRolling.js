@@ -27,6 +27,7 @@ function rollDiceWithAdvantage(diceSize = 6) {
         rolls: []
     }
 
+    
     result.rolls = [
         rollDice(diceSize),
         rollDice(diceSize)
